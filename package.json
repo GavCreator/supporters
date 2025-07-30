@@ -1,0 +1,19 @@
+{
+  "name": "gavssupporters",
+  "version": "1.0.0",
+  "description": "a live server that uses APIs to display the current supporters.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavCreator/supporters.git"
+  },
+  "author": "Gav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GavCreator/supporters/issues"
+  },
+  "homepage": "https://github.com/GavCreator/supporters#readme"
+}
