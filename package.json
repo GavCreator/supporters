@@ -1,26 +1,19 @@
 {
-  "name": "gavssupporters",
+  "name": "gvnxsupporters",
   "version": "1.0.0",
-  "description": "a live server that uses APIs to display the current supporters.",
-  "main": "app.js",
+  "description": "A way to make an account for the website and use your account to link your Patreon, Discord, Twitch, and YouTube to it to be showcased on the supporters page of my site",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GavCreator/supporters.git"
   },
-  "author": "Gav",
+  "author": "Gav, GvNx, SimplyGav, Newfies",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GavCreator/supporters/issues"
-  },
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3",
-    "fs-extra": "^11.2.0"
   },
   "homepage": "https://github.com/GavCreator/supporters#readme"
 }
