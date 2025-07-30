@@ -1,5 +1,5 @@
 {
-"name": "gvnxsupporters",
+  "name": "gvnxsupporters",
   "version": "1.0.0",
   "description": "A way to make an account for the website and use your account to link your Patreon, Discord, Twitch, and YouTube to it to be showcased on the supporters page of my site",
   "main": "index.js",
@@ -16,6 +16,8 @@
     "url": "https://github.com/GavCreator/supporters/issues"
   },
   "dependencies": {
+    "axios": "^1.11.0",
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "canvas": "^2.11.2",
     "chalk": "^4.1.2",
@@ -29,11 +31,13 @@
     "https": "^1.0.0",
     "ini": "^5.0.0",
     "moment-timezone": "^0.5.43",
+    "nedb": "^1.8.0",
     "newfiesjs": "^1.3.0",
     "npm": "^10.2.5",
     "path": "^0.12.7",
+    "querystring": "^0.2.1",
     "randomstring": "^1.3.0",
     "request-ip": "^3.3.0"
   },
-    "homepage": "https://github.com/GavCreator/supporters#readme"
+  "homepage": "https://github.com/GavCreator/supporters#readme"
 }

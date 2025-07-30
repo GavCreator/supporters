@@ -8,7 +8,7 @@ echo.
 cls
 echo [SERVER] Press Any Key To Stop The Server.
 echo.
-start /b node server.js
+start /b node app.js
 pause > nul
 echo.
 taskkill /f /im node.exe

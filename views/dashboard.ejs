@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style href="../public/dashboard/styles.css"></style>
+    </head>
+
+    <body>
+        <h2>Link Patreon Account</h2>
+        <a href="https://www.patreon.com/oauth2/authorize?response_type=code&client_id=kiImbJ492GsDQ6NLc3pTceTQwp87fpJr-1p7YTdcNEagDaItGp50sxrpOMaq_JSq&redirect_uri=http://localhost:3000/auth/patreon/callback&scope=identity">
+            <button>Link Patreon</button>
+        </a>
+
+
+
+        <% if(user.Patreon) { %>
+            <p>Linked Patreon: <strong><%= user.Patreon %></strong></p>
+        <% } %>
+
+
+        <form method="post" action="/logout">
+            <button type="submit">Logout</button>
+        </form>
+
+        <script src="../public/dashboard/script.js"></script>
+    </body>
+
+</html>
